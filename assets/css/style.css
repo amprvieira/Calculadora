@@ -1,6 +1,7 @@
 :root{
     --primary-color: rgb(58, 127, 136);
-    --primary-color-dark: rgb(9,48,56);
+    --primary-color-soft:  rgb(164, 204, 209);
+    --primary-color-dark: rgb(124, 156, 160);
     --white-color:#fff;
 }
 
@@ -16,16 +17,17 @@ h1{
     text-align: center;
 }
 .container{
-    max-width: 640px;
-    margin: 50px auto;
+    max-width: 30em;
+    margin: 2.5em auto;
     background-color: var(--white-color) ;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 1.2em;
+    padding-bottom: 2em;
+    border-radius: 0.8em;
 }
 
 .calculadora{
-    width: 400px;
-    margin-left: 18%;
+    width: 20em;
+    margin-left: 15%;
 }
 
 .display{
@@ -36,13 +38,13 @@ h1{
 
 .btn{
     width: 100%;
-    height: 40px;
+    height: 2em;
     font-size: 1em;
     border: none;
-    background-color: rgb(164, 204, 209);
+    background-color: var(--primary-color-soft);
     cursor:pointer;
 }
 
 .btn:hover{
-    background-color: rgb(124, 156, 160);
+    background-color: var(--primary-color-dark);
 }
